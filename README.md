@@ -29,4 +29,4 @@
 [https://github.com/XTLS/Xray-core](https://github.com/XTLS/Xray-core/commits/main/)
 
 [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest/commits/master/)
-
+#####默认IP地址192.168.1.1，无密码，插件有lucky和zerotier
