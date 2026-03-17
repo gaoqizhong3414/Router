@@ -11,9 +11,9 @@
 #
 
 # Uncomment a feed source
-sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '2i src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i 'i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 
 # Add a feed source
 # echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 # echo 'src-git helloworld https://github.com/sbwml/openwrt_helloworld' >>feeds.conf.default
+echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
