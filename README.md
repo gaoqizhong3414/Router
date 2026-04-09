@@ -30,4 +30,4 @@
 
 [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest/commits/master/)
 
-##### 默认IP地址192.168.1.1，无密码，插件有lucky和zerotier，最新版还有homeproxy
+##### 默认IP地址192.168.1.1，无密码，支持nss硬件加速，插件主要有lucky、zerotier、homeproxy，无Wi-Fi，无USB，其他各版本有小插件、主题和内核版本的变化。
