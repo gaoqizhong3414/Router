@@ -119,13 +119,7 @@ jobs:
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
-   # =========== 把修复代码粘贴到这里 ===========
-    - name: Fix qca-nss-drv missing prototypes
-      run: |
-           cd openwrt
-           sed -i 's/^void nss_pvxlan_log_tx_msg/static void nss_pvxlan_log_tx_msg/' feeds/nss_packages/qca-nss-drv/qca-nss-pvxlan/nss_pvxlan_log.c
-           sed -i 's/^void nss_pvxlan_log_rx_msg/static void nss_pvxlan_log_rx_msg/' feeds/nss_packages/qca-nss-drv/qca-nss-pvxlan/nss_pvxlan_log.c
-
+      
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
