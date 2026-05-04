@@ -29,4 +29,3 @@ sed -i 's/0x1000000/0x800000/g' ./target/linux/qualcommax/files/arch/arm64/boot/
 sed -i 's|^PKG_SOURCE_URL.*|PKG_SOURCE_URL=https://github.com/qwerttvv/Router.git|g' package/network/services/omcproxy/Makefile
 sed -i 's|^PKG_MIRROR_HASH.*|PKG_MIRROR_HASH:=skip|g' package/network/services/omcproxy/Makefile
 sed -i 's|^PKG_SOURCE_VERSION.*|PKG_SOURCE_VERSION:=omcproxy|g' package/network/services/omcproxy/Makefile
-
