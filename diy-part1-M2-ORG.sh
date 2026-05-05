@@ -17,7 +17,3 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default   # 如果也要 passwall2
-echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
-echo 'src/gz gecoosac https://github.com/gecools/lede-packages/trunk/package/gecools' >>feeds.conf.default   # 需确认实际 feed 地址
